@@ -1,0 +1,118 @@
+
+.newmorphishimEffect {
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow: 24px 24px 49px #bebebe, -24px -24px 49px #ffffff;
+}
+
+.newmorphishimEffect2 {
+    border-radius: 35px;
+    background: #e0e0e0;
+    box-shadow: 25px 25px 49px #a4a4a4, -25px -25px 49px #ffffff;
+}
+
+@media screen and (max-width: 576px) {
+    .newmorphishimEffect {
+            border-radius: 0px;
+    }
+  }
+
+button i {
+    transition: transform 0.3s ease;
+}
+
+button i.fa-xmark {
+    transform: rotate(90deg);
+}
+
+.yellow-color{
+    text-shadow: 5px 5px 10px #f3a909c9;
+}
+
+.white-shadow{
+    border-radius: 50%;
+background: #d4d4d4;
+box-shadow:  20px 20px 60px #d85a06,
+             -20px -20px 60px #eb8e02;
+}
+.green-border{
+    border: 1px solid #627254;
+}
+
+.green-shadow{
+
+    box-shadow: 5px 5px 7px #627254;
+}
+
+
+/* CSS */
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.5em 1.4em 0.5em 1.1em;
+  color: white;
+  background: #EA580c;
+  background: linear-gradient(0deg, #EA580c 0%, #EA580c 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #EA580c;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+.background-color{
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+.myshadow{
+    text-shadow: 5px 5px 20px orange,
+                -5px -5px 20px orange;
+}
+.animated-box {
+    
+    /* background-color: #fff; */
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+    animation: shadowAnimation 3s infinite;
+  }
+
+  @keyframes shadowAnimation {
+    0% {
+      box-shadow: 0 0 20px 5px rgba(255, 0, 0, 0.5);
+    }
+    25% {
+      box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.5);
+    }
+    75% {
+      box-shadow: 0 0 20px 5px rgba(255, 255, 0, 0.5);
+    }
+    100% {
+      box-shadow: 0 0 20px 5px rgba(221, 82, 2, 0.5);
+    }
+  }
+  .border-b-1{
+    border-bottom: 1px solid white;
+  }
+
+  .drop-shadow {
+    /* box-shadow: 2px 2px  7px #EA580c; */
+    filter: drop-shadow(30px 10px 10px #EA580c);
+  }
+  .border-bottom{
+    border-bottom: 1px solid rgba(245, 222, 179, 0.678);
+  }
