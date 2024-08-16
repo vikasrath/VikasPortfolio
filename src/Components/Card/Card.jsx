@@ -11,7 +11,7 @@ function Card({  className, image, content, title }) {
         <div className='text-4xl  font-semibold text-[#ffffff]'>
           {title} <span className=' text-4xl text-orange-500'>Vikas <i className="fa-brands fa-phoenix-framework"></i></span>
         </div>
-        <p className='mt-4  pb-4 tablets:pb-0 text-xl text-[#ffffff]'>
+        <p className='mt-4  text-xl text-[#ffffff]'>
           {content}
         </p>
       </div>

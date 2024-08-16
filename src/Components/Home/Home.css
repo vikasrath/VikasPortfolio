@@ -80,12 +80,7 @@ box-shadow:  20px 20px 60px #d85a06,
     text-shadow: 5px 5px 20px orange,
                 -5px -5px 20px orange;
 }
-.animated-box {
-    /* background-color: #fff; */
-    border-radius: 10px;
-    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
-    animation: shadowAnimation 3s infinite;
-  }
+
 
   @media screen and (min-width: 576px) {
     .animated-box {
