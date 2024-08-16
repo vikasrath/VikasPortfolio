@@ -44,7 +44,7 @@ function Contact() {
 
         <div className='min-h-[500px] shadow-xl p-3 w-full tablets:w-[45%] flex flex-col ml-5 justify-around pt-5'>
           <div className='flex justify-center'>
-            <img src={img} alt="vikas" className='rounded-full w-[50%] tablets:w-[35%] mx-auto animated-box' />
+            <img src={img} alt="vikas" className='rounded-full w-[50%] tablets:w-[35%] mx-auto ' />
           </div>
           <Card2 
             title="LinkedIn" 
@@ -53,6 +53,7 @@ function Contact() {
             icon="fa-brands fa-linkedin"
           />
           <Card2 
+          
             title="Github" 
             iconcolor=""
             content="Click and visit my Github account" 

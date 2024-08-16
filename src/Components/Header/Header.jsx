@@ -11,6 +11,7 @@ function Header({classname="hidden"}) {
 
     return (
         <div className={` ${classname}   bg-black border tablets:flex tablets:flex-col tablets:w-1/4 h-[300px] tablets:min-h-screen shadow-lg  p-5`}>
+             
             <div className='  ps-4 font-bold text-[#ffffff] text-3xl pb-5 font-serif flex ' >
                 <p>vikas</p>
                 <span className=' ps-3 pt-1 myshadow text-[#f7a438] text-2xl bg-[#000000b7]'><i className="fa-regular fa-sun"></i></span>

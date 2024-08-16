@@ -57,7 +57,7 @@ box-shadow:  20px 20px 60px #d85a06,
   background: #EA580c;
   background: linear-gradient(0deg, #EA580c 0%, #EA580c 100%);
   border: none;
-  box-shadow: 0 0.7em 1.5em -0.5em #EA580c;
+  /* box-shadow: 0 0.7em 1.5em -0.5em #EA580c; */
   letter-spacing: 0.05em;
   border-radius: 20em;
   cursor: pointer;
