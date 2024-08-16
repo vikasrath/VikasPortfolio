@@ -10,7 +10,7 @@ function Home() {
     <Cont>
       {/* <div className=' tablets:rounded-3xl w-full min-h-full relative tablets:p-8'> */}
        
-        <div className=' tablets:mt-16 '>
+        <div className=' tablets:mt-16  '>
           <Card
             className=""
             image={img}
